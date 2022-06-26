@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav flex1">
+        <div class="nav-bar flex3">
+            <h1>Profile</h1>
+            <ul id="nav-options">
+                <li><a href="Home">Home</a></li>
+                <li><a href="MyProfile">My Profile</a></li>
+                <li><a href="FindConnections">Find Connections</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <button type="button" id="sign-out"> Sign Out</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-colum">
+            <div class="profile flex2">
+                <div class="title1">
+                    <header class="header">
+                        <img class="user" src="./user-circle.png" alt="user">
+                    </header>
+                </div>
+                <div class="profile-content flex2">
+                        <h1>Jane Doe</h1>
+                    <div class="location">
+                        <img id="map-marker" src="./map-marker.png" alt="map-marker">
+                        <h3>Seattle</h3>
+                    </div>
+                    <div class="skills">
+                        <strong>
+                            <ul id="skills">
+                                <li>Developer</li>
+                                <p>|</p>
+                                <li>Engineer</li>
+                                <p>|</p>
+                                <li>Problem Solver</li>
+                            </ul>
+                        </strong>
+                    </div>
+                        <p><strong>Master of the shadows and the Internet!</strong></p>
+                    <div class="settings flex3">
+                        <img id="gear" src="./gear.png" alt="gear">
+                        <a href="Edit Profile">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <div class="title2">
+                    <header>
+                        <h3>Education</h3>
+                    </header>
+                </div>
+                <div class="ed-content">
+                    <h2>Coding Dojo- Full Stack Bootcamp</h2>
+                    <p class="ed">Dec 2019 - March 2020</p>
+                    <p class="ed">Triple black belt in Python Mern and C#</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-colum">
+            <div class="request">
+                <div class="title3">
+                    <header class="connection-request flex1">
+                        <button id="button1"><strong>2</strong></button>
+                        <h3>Connection Request</h3>
+                    </header>
+                </div>
+                <div class="waiting-request">
+                    <div class="profile1 flex2">
+                        <img src="./todd-s.jpg" alt="Todd">
+                        <p><strong>Todd E</strong></p>
+                        <img class="accept" src="./accept-circle.png" alt="accept">
+                        <img class="accept" src="./close-circle.png" alt="deny">
+                    </div>
+                    <div class="profile2 flex2">
+                        <img src="./phil-s.jpg" alt="Phill">
+                        <p><strong>Phil K</strong></p>
+                        <img class="accept" src="./accept-circle.png" alt="accept">
+                        <img class="accept" src="./close-circle.png" alt="deny">
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="title3">
+                    <header id="connections">
+                        <button id="button2"><strong>500</strong>+</button>
+                        <h3>Your Connections</h3>
+                    </header>
+                </div>
+                <div class="your-connects flex2">
+                    <div class="profile3 flex3">
+                        <img src="./adrien-s.jpg" alt="Adrien">
+                        <p><strong>Adrien D</strong></p>
+                    </div>
+                    <div class="profile4 flex3">
+                        <img src="./anne-s.jpg" alt="Anne">
+                        <p><strong>Anne J</strong></p>
+                    </div>
+                    <div class="profile5 flex3">
+                        <img src="./alayne-s.jpg" alt="Alayne">
+                        <p><strong>Alayne T</strong></p>
+                    </div>
+                    <div class="profile6 flex3">
+                        <img src="./arry-s.jpg" alt="Arry">
+                        <p><strong>Arry Y</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="view">
+                <header>
+                    <a href="View More">View More</a>
+                </header>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

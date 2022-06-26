@@ -1,0 +1,258 @@
+/* I tweaked the colors just to see how it would look. */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+button:hover {
+    cursor: pointer;
+}
+
+/* Main container that houses all content but nav bar */
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+/* Container for all nav bar items */
+.nav{
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.nav-bar{
+    gap: 15px;
+    padding: 10px;
+}
+/* A tags in nav bar */
+#nav-options{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+/* Sign out button */
+
+#sign-out{
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+/* Holds profile and education container */
+.left-colum{
+    flex: 2;
+    margin-left: 100px;
+}
+
+.profile{
+    margin-bottom: 25px;
+}
+
+.title1{
+    background-color: rgb(41, 41, 199);
+}
+
+.user{
+    height: 70px;
+}
+
+.header{
+    position: relative;
+    height: 110px;
+    top: 70px;
+    left: 30px;
+}
+
+.profile-content{
+    padding: 25px;
+    border: 2px solid black;
+    border-top: none;
+}
+
+#map-marker{
+    height: 30px;
+}
+
+.location{
+    display: flex;
+    margin: 15px 0;
+}
+
+#skills{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 7px;
+}
+
+#gear{
+    height: 20px;
+    margin-top: 15px;
+}
+
+.settings{
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+
+.title2{
+    background-color:  rgb(80, 80, 80);;
+    color: black;
+    padding: 5px;
+}
+
+.ed-content{
+    border: 2px solid black;
+    padding: 10px;
+    border-top: none;
+}
+
+.ed{
+    margin: 5px;
+}
+/* Main container for - waiting request and your connection containers */
+.right-colum{
+    flex: 1;
+}
+
+img{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.request{
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+/* header */
+.connection-request{
+    background-color:  rgb(80, 80, 80);
+    padding: 10px;
+}
+/* Button for header */
+#button1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+/* Box for profile request */
+.waiting-request{
+    padding: 10px;
+    gap: 5px;
+    border: 2px solid black;
+    border-top: none;
+}
+
+
+/* Make a class for profiles to dry code */
+.profile1{
+    gap: 35px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.profile2{
+    display: flex;
+}
+
+.accept{
+    height: 30px;
+    align-items: center;
+}
+
+/* main box for connections */
+.connections{
+    margin-left: 25px;
+}
+
+
+/* Header for connections */
+#connections{
+    background-color: rgb(80, 80, 80);
+    color: black;
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+/* Button for header */
+#button2{
+    height: 30px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+
+/* Profile content such as images and names */
+.your-connects{
+    padding: 10px;
+    border: 2px solid black;
+    border-top: none;
+}
+
+/* make a class for profiles below to dry code */
+
+.profile3{
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.profile4{
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.profile5{
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.profile6{
+    gap: 15px;
+}
+
+/* View box under connections */
+
+.view{
+    background-color:  rgb(80, 80, 80);;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 25px;
+    padding: 10px;
+    border: 2px solid black;
+    border-top: none;
+}
+
+.connect-profile{
+    display: flex;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex2{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex3{
+    display: flex;
+    align-items: center;
+}
